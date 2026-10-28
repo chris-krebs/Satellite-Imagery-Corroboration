@@ -100,22 +100,3 @@ So: the precise site roughly doubles what can be confirmed (17 vs 8 of the same 
 | Garyville (E020 / E083) | Flares look like fire in the images: event and control both labelled "fire" → weak |
 | Kstovo (E016) | City check says yes from other heat in town; the site itself was under cloud |
 | Moss Landing, Crocus, Deer Park (02) | OSM name matching picks the neighbouring facility |
-
----
-
-## Open items
-
-- [ ] **Check Moscow E005 ground truth** (date and scale) against primary news. Only source is the Wikipedia site history.
-- [ ] Optional: automatic **cloud check** (Open-Meteo hourly cloud cover at overpass times) to replace the single-image cloud proxy.
-- [ ] Optional: add the **Engels 6 June 2025** strike as an extra event (summer, same outline).
-- [ ] Optional: more controls (26 bounds false alarms only to < 13%).
-- [x] Website built (`08_WEBSITE`). Before publishing: check the repo URL in `build_site.py`, read the event pages for the cases, decide where the code repo lives.
-- [ ] The website reports false alarms over *observable* controls (0 of 15, bound < 20%), not 0 of 26 as `verdict_report.txt` does: 11 controls were under cloud and could not produce a false alarm. Consider changing the report to match.
-- [ ] E017 Toropets ground truth is partly circular (Wikipedia cites FIRMS); flagged on the site.
-
-## Things to remember
-
-- Never adjust event dates or coordinates because of what FIRMS shows (circular).
-- After seeing test results, don't change thresholds or verdict rules; if you must, say so in the results.
-- `check` in 02 overwrites `osm_candidates.csv`; `apply` rebuilds `events_reviewed.csv` from scratch: pass all accepted sites in one command.
-- Runs with `--only` in 05 merge into existing outputs. In 04 they overwrite the outputs, but nothing is re-downloaded.
