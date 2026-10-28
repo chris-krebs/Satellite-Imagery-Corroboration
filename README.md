@@ -2,12 +2,10 @@
 
 **Question:** when the news reports a fire, explosion or strike at a place, can free satellite data (NASA FIRMS, Sentinel-2) independently confirm it, and what does it cost when the news location is only a city?
 
-**Status (28 Oct 2026):** stages 1–8 done: pipeline, verdicts and the website (`08_WEBSITE/site`, not yet published). Licences and credits: `LICENSES_AND_ATTRIBUTION.md`.
-
 
 **Website:** https://chris-krebs.github.io/Satellite_Imagery_Corroboration/ (built by `08_WEBSITE/build_site.py`, published by `.github/workflows/pages.yml` on every push to `main`).
 **Licences:** code MIT (`LICENSE`); data CC BY 4.0, except OpenStreetMap-derived outlines (ODbL); see `DATA_LICENSE.md` and `LICENSES_AND_ATTRIBUTION.md`.
-**Not in the repository** (see `.gitignore`): `.env`, API caches, full-size Sentinel-2 images, `03_QGIS`, `XX_GUIDELINES`.
+**Not in the repository** (see `.gitignore`): `.env`, API caches, full-size Sentinel-2 images.
 
 ---
 
