@@ -1,0 +1,22 @@
+{
+  "written_on": "2026-10-28",
+  "disclosure": "Written after stages 04-07 had been run and partly inspected, including test-half sites: the attribution rule was motivated by Volgograd E002 (test half) and the flare caveat for visual labels by the Garyville control E083 (calibration). Treat test-half verdicts as semi-blind. One change after the first run (28 Oct 2026): the attribution check now also applies to signals after the timing window, because E002 had come out 'weak' on the other attack's fire, the case the rule was written for. Do not change these rules after reading verdict_report.txt; if you must, say so in the results.",
+  "timing_window_hours": {
+    "hour": [
+      -3,
+      36
+    ],
+    "day": [
+      -12,
+      48
+    ]
+  },
+  "attribution_days_after": 4,
+  "attribution_lead_hours": 6,
+  "cloud_first_after_min": 0.9,
+  "cloud_clear_after_max_days": 5,
+  "flare_site_radius_extra_km": 0.5,
+  "city_radius_km": 10.0,
+  "city_p_value": 0.01,
+  "baseline_days": 30
+}

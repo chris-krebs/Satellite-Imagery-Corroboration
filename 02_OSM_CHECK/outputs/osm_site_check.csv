@@ -1,0 +1,68 @@
+site_id,place_name,mode,had_site_coords,verdict,n_candidates,n_shown,best_osm,deciding_osm,deciding_name,deciding_dist_to_site_km,note,hint_note,source
+S01,Matanzas supertanker base (oil terminal),feature,True,agrees,110,15,way/125343413,way/125343413,Terminal de Supertanqueros,0.0,"ambiguous: 9 matches, top two 2.9 km apart",tank tag may return many tanks; pick the terminal,cache
+S02,Volgograd refinery (Lukoil),feature,True,agrees,9,9,relation/17219746,relation/17219746,Волгоградский нефтеперерабатывающий завод,0.0,,,cache
+S03,"Moscow refinery (Gazprom Neft, Kapotnya)",feature,True,agrees,1,1,relation/7371868,relation/7371868,Московский нефтеперерабатывающий завод,0.0,,,cache
+S04,Yaroslavl refinery (Slavneft-YANOS),feature,True,agrees,7,7,way/55556171,way/55556171,Ярославнефтеоргсинтез,0.0,,,cache
+S05,Kirishi refinery (KINEF),feature,True,agrees,7,7,relation/11366279,relation/11366279,Киришинефтеоргсинтез,0.0,,,cache
+S06,Ryazan refinery (Rosneft),feature,True,agrees,1,1,way/59165930,way/59165930,"ЗАО ""РНПК""",0.039,,,cache
+S07,Tuapse refinery (Rosneft),feature,True,agrees,8,8,relation/3532772,relation/3532772,Туапсинский нефтеперерабатывающий завод,0.0,,,cache
+S08,Perm refinery (Lukoil-Permnefteorgsintez),feature,True,agrees,6,6,way/1568678921,way/1568678921,ООО «ЛУКОЙЛ-Пермнефтеоргсинтез»,0.0,,,cache
+S09,Kstovo refinery (Lukoil-NORSI),feature,True,agrees,2,2,way/60217666,way/60217666,ОАО ЛУКОЙЛ-Нижегороднефтеоргсинтез,0.0,"ambiguous: 2 matches, top two 6.2 km apart",,cache
+S10,Toropets arsenal (GRAU 107th depot),feature,True,agrees,1,1,way/537282838,way/537282838,107-й арсенал ГРАУ,0.0,,military areas often unnamed; expect several,cache
+S11,Feodosia marine oil terminal,feature,False,proposal_only,1,1,way/107582820,way/107582820,Нефтебаза,,,,cache
+S12,"Kavkaz oil depot, Proletarsk",feature,False,proposal_only,3,3,way/406933192,way/406933192,Кавказская кухня,,"ambiguous: 2 matches, top two 2.5 km apart",,cache
+S13,Garyville refinery (Marathon),feature,True,agrees,14,14,way/1175872560,way/1175872560,Garyville Refinery,0.0,,,cache
+S14,"Kombinat Kristall oil depot (Rosrezerv), Engels",feature,True,agrees,7,7,way/121815231,way/121815231,"Комбинат ""Кристалл""",0.0,,,cache
+S15,"Rosneft fuel depot, Belgorod",feature,False,proposal_only,4,4,way/1065365613,way/1065365613,Нефтебаза белгородского аэропорта,,,,cache
+S16,"Saky air base, Novofedorivka (Crimea)",feature,True,agrees,6,6,relation/9582505,relation/9582505,Военный аэродром Саки,0.0,"ambiguous: 6 matches, top two 2.1 km apart",,cache
+S20,"Marywilska 44 shopping centre, Warsaw",feature,True,agrees,43,15,way/102319582,way/102319582,Centrum Handlowe Marywilska 44,0.0,,,cache
+S21,"BioLab plant, Conyers GA",feature,False,proposal_only,7,7,way/1029670975,way/1029670975,Collapsed BioLab warehouse,,,,cache
+S22,Moss Landing battery storage facility (Vistra),feature,True,agrees,69,15,way/1091806657,way/1091806657,Elkhorn Battery,0.0,,,cache
+S23,"BM Container Depot, Sitakunda",feature,True,agrees,2,2,way/757725730,way/757725730,BM Container Depot Ltd,0.0,,,cache
+S24,"Zagorsk Optical-Mechanical Plant (ZOMZ), Sergiyev Posad",feature,True,agrees,1,1,relation/2498584,relation/2498584,Загорский оптико-механический завод,0.0,,,cache
+S25,"My Way Trading plastics storage site, Richmond IN",feature,True,no_candidates,0,0,,,,,,small private site; may be unmapped,cache
+S26,"Elastik plant, Lesnoy (Shilovsky district, Ryazan oblast)",feature,False,proposal_only,2,2,relation/9591744,relation/9591744,"ФГУП Завод синтетических волокон ""Эластик""",,,,cache
+S27,Mega Khimki shopping centre (OBI),feature,False,proposal_only,85,15,way/22873077,way/22873077,МЕГА Химки,,,,cache
+S28,"Amstor shopping mall, Kremenchuk",feature,True,agrees,1,1,way/177581749,way/177581749,Амстор,0.47,,,cache
+S29,"Mradi area gas depot, Embakasi, Nairobi",feature,False,proposal_only,2,2,node/12249840443,node/12249840443,Toilet ya mradi ya TAK,,"ambiguous: 2 matches, top two 7.8 km apart",neighbourhood-level only; blast point not mapped,cache
+S30,"Energy Transfer pipeline valve station, Deer Park / La Porte TX",feature,False,proposal_only,770,15,way/267159456,way/267159456,Walmart Supercenter,,"ambiguous: 9 matches, top two 6.2 km apart","PROXY: valve station next to a Walmart car park on Spencer Hwy; pick the Walmart on Spencer Hwy, not the feature itself",cache
+S31,Shell Deer Park Chemicals (olefins unit),feature,False,proposal_only,58,15,relation/12348409,relation/12348409,PEMEX Deer Park Refinery,,,,cache
+S32,"Diehl Metal Applications plant, Berlin-Lichterfelde",feature,False,proposal_only,4,4,way/158225638,way/158225638,Diehl Metal Applications (Schempp & Decker),,,,cache
+S33,"Crocus City Hall, Krasnogorsk",feature,True,agrees,6,6,relation/8038196,relation/8038196,МВЦ Крокус Экспо (павильон 3),0.0,,,cache
+S34,"Norfolk Southern derailment site, East Palestine OH",skip_no_feature,True,skip_no_feature,0,,,,,,,derailment point on a rail line; no OSM feature to match,
+S35,"Wildberries warehouse, Shushary (St Petersburg)",feature,False,proposal_only,4,4,way/1353742652,way/1353742652,Wildberries,,"ambiguous: 4 matches, top two 28.8 km apart",areas_only to skip hundreds of pickup-point nodes,cache
+S36,"Epicentr hypermarket, Kyivskyi district, Kharkiv",feature,False,proposal_only,2,2,way/128161999,way/128161999,Епіцентр К,,"ambiguous: 2 matches, top two 18.3 km apart",,cache
+S40,"Shahid Rajaee port, Bandar Abbas",feature,True,agrees,4,4,way/489941811,way/489941811,گمرک و مجتمع بندری شهید رجایی,0.0,,,cache
+S41,"Stena Immaculate / Solong collision, North Sea off Spurn Head",skip_offshore,True,skip_offshore,0,,,,,,,,
+S42,"Tanker Sounion, Red Sea (drifting)",skip_offshore,True,skip_offshore,0,,,,,,,,
+S43,"Cruiser Moskva, NW Black Sea",skip_offshore,True,skip_offshore,0,,,,,,,,
+S44,Iskenderun port container yard,feature,True,near,6,6,way/1328747033,way/1328747033,Limak Port,0.756,"ambiguous: 6 matches, top two 2.1 km apart",,cache
+S45,"Container ship Wan Hai 503, off Kerala",skip_offshore,True,skip_offshore,0,,,,,,,,
+S46,Novatek Ust-Luga fuel export terminal,feature,False,proposal_only,2,2,way/299684669,way/299684669,Комплекс по перевалке газового конденсата,,,,cache
+S47,"Tanker Marlin Luanda, Gulf of Aden",skip_offshore,True,skip_offshore,0,,,,,,,,
+S48,"Car carrier Fremantle Highway, off Ameland",skip_offshore,True,skip_offshore,0,,,,,,,,
+S49,Primorsk oil port (vessel at berth),feature,True,agrees,37,15,relation/17754578,relation/17754578,Нефтеналивной терминал,0.084,,Wikipedia gives a port-level point; vessel berth is what burned,cache
+S50,"Sheskharis oil terminal (Transneft), Novorossiysk",feature,False,proposal_only,2,2,way/1014606567,way/1014606567,Перевалочный комплекс Шесхарис,,,,cache
+S51,"Car carrier Felicity Ace, off the Azores",skip_offshore,False,skip_offshore,0,,,,,,,,
+S52,"Car carrier Morning Midas, N Pacific SW of Adak",skip_offshore,True,skip_offshore,0,,,,,,,,
+S53,"Container ship Maersk Frankfurt, off Karwar",skip_offshore,True,skip_offshore,0,,,,,,,,
+S54,Izmail port (Danube),feature,False,no_candidates,0,0,,,,,,,live
+S60,"Hotel Saratoga, Havana",feature,True,agrees,1,1,way/1058609103,way/1058609103,Hotel Saratoga,0.0,,,cache
+S61,"Paris American Academy, 277 rue Saint-Jacques",address,False,no_candidates,0,0,,,,,,,cache
+S62,"LPG station, Crevedia",feature,False,proposal_only_tag_only,2,2,way/525088992,way/525088992,Petrom,,,LPG station brand not in sources; several fuel stations likely - check against news imagery,cache
+S63,"BBQ restaurant, Yinchuan",feature,True,no_candidates,0,0,,,,,,,cache
+S64,"Accurate Energetic Systems, McEwen TN",feature,True,agrees,2,2,way/1437145145,way/1437145145,Accurate Energetic Systems LLC,0.0,,,cache
+S65,"Sigachi Industries plant, Pashamylaram (Telangana)",feature,True,no_candidates,0,0,,,,,,,cache
+S66,"Plastmass plant, Kopeysk",feature,True,agrees,5,5,way/88509279,way/88509279,Завод «Пластмасс»,0.0,,,cache
+S67,"Alabuga SEZ dormitories, Yelabuga",feature,False,proposal_only,1,1,way/80854192,way/80854192,Общежитие колледжа культуры и скусств,,,SEZ is huge; target the dormitory blocks,cache
+S68,Warsaw-Lublin rail line near Mika,skip_no_feature,False,skip_no_feature,0,,,,,,,blast point on a rail line; no OSM feature to match,
+S69,"IKEA store warehouse, Vilnius",feature,False,proposal_only,1,1,way/232491805,way/232491805,IKEA,,,,cache
+S70,"Apartment block, Tarwekamp, The Hague",address,True,agrees,245,15,node/2709975926,node/2709975926,,0.003,,,cache
+S71,"Apartment building, 15 rue de Tivoli, Marseille",address,False,no_candidates,0,0,,,,,,,cache
+S72,"Fried-chicken shop, Yanjiao (Sanhe, Hebei)",skip_no_feature,False,skip_no_feature,0,,,,,,,shop name not in sources; GeoNames 'Sanhe' centroid is ~30 km from Yanjiao,
+S73,"Residential building, Dnipro (Naberezhna Peremohy)",address,True,agrees,79,15,way/1384308715,way/1384308715,,0.249,,street is km long; rank by distance to the Wikipedia point,cache
+S74,"Residential building, Uman",skip_no_feature,True,skip_no_feature,0,,,,,,,street address not in sources,
+S75,"Okhmatdyt children's hospital, Kyiv",feature,False,proposal_only,3,3,way/1455708012,way/1455708012,Консультативно-діагностична поліклініка НДСЛ «ОХМАТДИТ»,,,,cache
+S76,Sumy city centre,skip_no_feature,False,skip_no_feature,0,,,,,,,city-centre strike; no single feature,
+S77,"RIA Pizza restaurant, Kramatorsk",feature,True,agrees,4,4,way/329936156,way/329936156,Ria pizza,0.008,,,cache
+S78,"Kremniy El plant, 103 Krasnoarmeyskaya St, Bryansk",address,False,proposal_only,2,2,relation/2651129,relation/2651129,"АО ""Кремний""",,,,cache

@@ -1,0 +1,15 @@
+# secrets and machine-specific files
+.env
+.venv/
+__pycache__/
+.DS_Store
+~$*
+# re-downloadable API caches
+*/data/cache/
+# large image outputs: the website keeps web-sized copies in 08_WEBSITE/site/img
+07_SENTINEL2/outputs/panels/
+07_SENTINEL2/outputs/blind/
+07_SENTINEL2/outputs/compressed/
+# private working files
+XX_GUIDELINES/
+03_QGIS/

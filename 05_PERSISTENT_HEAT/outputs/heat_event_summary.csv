@@ -1,0 +1,69 @@
+event_id,site_id,split,category,ground_truth,place_name,event_time_utc,n_site_raw,n_site_signal,n_new,n_anomalous,n_background,raw_first_hours,signal_first_hours,raw_max_frp_mw,signal_max_frp_mw,history_detections,history_failed_requests
+E001,S01,test,large_outdoor_fire,confirmed,Matanzas supertanker base (oil terminal),2022-08-05,25,25,24,1,0,30.9,30.9,250.35,250.35,10,0
+E084,S01,test,negative_control,control,Matanzas supertanker base (oil terminal),2023-08-05,0,0,0,0,0,,,,,10,0
+E002,S02,test,large_outdoor_fire,confirmed,Volgograd refinery (Lukoil),2025-01-31,13,10,0,10,3,71.0,71.0,6.81,6.81,761,0
+E003,S02,test,large_outdoor_fire,confirmed,Volgograd refinery (Lukoil),2025-10-15,0,0,0,0,0,,,,,761,0
+E075,S02,test,negative_control,control,Volgograd refinery (Lukoil),2023-01-31,0,0,0,0,0,,,,,761,0
+E004,S03,calibration,large_outdoor_fire,confirmed,"Moscow refinery (Gazprom Neft, Kapotnya)",2024-09-01,0,0,0,0,0,,,,,58,0
+E005,S03,calibration,large_outdoor_fire,confirmed,"Moscow refinery (Gazprom Neft, Kapotnya)",2026-06-18,1,0,0,0,1,82.0,,2.0,,58,0
+E076,S03,calibration,negative_control,control,"Moscow refinery (Gazprom Neft, Kapotnya)",2023-09-01,3,0,0,0,3,70.8,,0.97,,58,0
+E006,S04,test,large_outdoor_fire,confirmed,Yaroslavl refinery (Slavneft-YANOS),2026-03-28,15,14,3,11,1,-22.8,0.0,148.1,148.1,261,0
+E077,S04,test,negative_control,control,Yaroslavl refinery (Slavneft-YANOS),2025-03-28,28,0,0,0,28,24.4,,2.58,,261,0
+E007,S05,calibration,large_outdoor_fire,confirmed,Kirishi refinery (KINEF),2024-03-13,0,0,0,0,0,,,,,56,0
+E008,S05,calibration,large_outdoor_fire,confirmed,Kirishi refinery (KINEF),2025-10-04,2,2,2,0,0,0.1,0.1,1.28,1.28,56,0
+E078,S05,calibration,negative_control,control,Kirishi refinery (KINEF),2023-03-13,0,0,0,0,0,,,,,56,0
+E009,S06,test,large_outdoor_fire,confirmed,Ryazan refinery (Rosneft),2024-05-01,0,0,0,0,0,,,,,76,0
+E010,S06,test,large_outdoor_fire,confirmed,Ryazan refinery (Rosneft),2025-09-05,4,4,0,4,0,1.2,1.2,7.19,7.19,76,0
+E011,S06,test,large_outdoor_fire,confirmed,Ryazan refinery (Rosneft),2026-05-15,15,7,2,5,8,9.1,9.1,6.55,6.55,76,0
+E079,S06,test,negative_control,control,Ryazan refinery (Rosneft),2023-05-01,5,0,0,0,5,47.2,,1.48,,76,0
+E012,S07,test,large_outdoor_fire,confirmed,Tuapse refinery (Rosneft),2024-01-25,0,0,0,0,0,,,,,0,0
+E013,S07,test,large_outdoor_fire,confirmed,Tuapse refinery (Rosneft),2024-05-17,0,0,0,0,0,,,,,0,0
+E080,S07,test,negative_control,control,Tuapse refinery (Rosneft),2023-05-17,0,0,0,0,0,,,,,0,0
+E014,S08,calibration,large_outdoor_fire,confirmed,Perm refinery (Lukoil-Permnefteorgsintez),2026-04-29,0,0,0,0,0,,,,,372,0
+E081,S08,calibration,negative_control,control,Perm refinery (Lukoil-Permnefteorgsintez),2025-04-29,0,0,0,0,0,,,,,372,0
+E015,S09,calibration,large_outdoor_fire,confirmed,Kstovo refinery (Lukoil-NORSI),2025-01-29,0,0,0,0,0,,,,,180,0
+E016,S09,calibration,large_outdoor_fire,confirmed,Kstovo refinery (Lukoil-NORSI),2026-05-20,3,0,0,0,3,-15.4,,8.75,,180,0
+E082,S09,calibration,negative_control,control,Kstovo refinery (Lukoil-NORSI),2024-01-29,0,0,0,0,0,,,,,180,0
+E017,S10,calibration,large_outdoor_fire,confirmed,Toropets arsenal (GRAU 107th depot),2024-09-18T00:56Z,564,564,564,0,0,-0.9,-0.9,141.6,141.6,2,0
+E089,S10,calibration,negative_control,control,Toropets arsenal (GRAU 107th depot),2023-09-18,0,0,0,0,0,,,,,2,0
+E020,S13,calibration,large_outdoor_fire,confirmed,Garyville refinery (Marathon),2023-08-25,12,0,0,0,12,-16.2,,5.58,,579,0
+E083,S13,calibration,negative_control,control,Garyville refinery (Marathon),2022-08-25,5,0,0,0,5,7.0,,3.97,,579,0
+E021,S14,calibration,large_outdoor_fire,confirmed,"Kombinat Kristall oil depot (Rosrezerv), Engels",2025-01-07T23:00Z,0,0,0,0,0,,,,,5,0
+E097,S14,calibration,negative_control,control,"Kombinat Kristall oil depot (Rosrezerv), Engels",2024-01-08,0,0,0,0,0,,,,,5,0
+E023,S16,calibration,large_outdoor_fire,confirmed,"Saky air base, Novofedorivka (Crimea)",2022-08-09,0,0,0,0,0,,,,,1,0
+E024,S20,calibration,industrial_fire,confirmed,"Marywilska 44 shopping centre, Warsaw",2024-05-12T01:30Z,2,2,2,0,0,0.1,0.1,13.77,13.77,0,0
+E094,S20,calibration,negative_control,control,"Marywilska 44 shopping centre, Warsaw",2023-05-12,0,0,0,0,0,,,,,0,0
+E026,S22,test,industrial_fire,confirmed,Moss Landing battery storage facility (Vistra),2025-01-16,8,8,8,0,0,33.5,33.5,10.86,10.86,0,0
+E098,S22,test,negative_control,control,Moss Landing battery storage facility (Vistra),2024-01-16,0,0,0,0,0,,,,,0,0
+E027,S23,calibration,industrial_fire,confirmed,"BM Container Depot, Sitakunda",2022-06-04T15:00Z,19,19,4,15,0,3.7,3.7,37.0,37.0,391,0
+E088,S23,calibration,negative_control,control,"BM Container Depot, Sitakunda",2023-06-04,0,0,0,0,0,,,,,391,0
+E028,S24,calibration,industrial_fire,confirmed,"Zagorsk Optical-Mechanical Plant (ZOMZ), Sergiyev Posad",2023-08-09,0,0,0,0,0,,,,,5,0
+E029,S25,test,industrial_fire,confirmed,"My Way Trading plastics storage site, Richmond IN",2023-04-11T19:00Z,24,24,24,0,0,0.3,0.3,142.39,142.39,0,0
+E095,S25,test,negative_control,control,"My Way Trading plastics storage site, Richmond IN",2022-04-11,0,0,0,0,0,,,,,0,0
+E032,S28,calibration,industrial_fire,confirmed,"Amstor shopping mall, Kremenchuk",2022-06-27,0,0,0,0,0,,,,,2,0
+E037,S33,calibration,industrial_fire,confirmed,"Crocus City Hall, Krasnogorsk",2024-03-22T16:58Z,0,0,0,0,0,,,,,1,0
+E093,S33,calibration,negative_control,control,"Crocus City Hall, Krasnogorsk",2023-03-22,0,0,0,0,0,,,,,1,0
+E038,S34,calibration,industrial_fire,confirmed,"Norfolk Southern derailment site, East Palestine OH",2023-02-04T01:55Z,0,0,0,0,0,,,,,0,0
+E096,S34,calibration,negative_control,control,"Norfolk Southern derailment site, East Palestine OH",2022-02-03,0,0,0,0,0,,,,,0,0
+E041,S40,test,port_ship_fire,confirmed,"Shahid Rajaee port, Bandar Abbas",2025-04-26T08:50Z,64,64,64,0,0,0.9,0.9,105.4,105.4,319,0
+E085,S40,test,negative_control,control,"Shahid Rajaee port, Bandar Abbas",2024-04-26,0,0,0,0,0,,,,,319,0
+E042,S41,calibration,port_ship_fire,confirmed,"Stena Immaculate / Solong collision, North Sea off Spurn Head",2025-03-10T09:47Z,2,2,2,0,0,2.2,2.2,17.49,17.49,0,0
+E087,S41,calibration,negative_control,control,"Stena Immaculate / Solong collision, North Sea off Spurn Head",2024-03-10,0,0,0,0,0,,,,,0,0
+E044,S43,calibration,port_ship_fire,confirmed,"Cruiser Moskva, NW Black Sea",2022-04-13,0,0,0,0,0,,,,,0,0
+E045,S44,calibration,port_ship_fire,confirmed,Iskenderun port container yard,2023-02-06,18,18,18,0,0,35.4,35.4,87.93,87.93,2,0
+E086,S44,calibration,negative_control,control,Iskenderun port container yard,2022-02-06,0,0,0,0,0,,,,,2,0
+E050,S49,calibration,port_ship_fire,confirmed,Primorsk oil port (vessel at berth),2025-09-12,0,0,0,0,0,,,,,0,0
+E056,S60,test,small_or_indoor,confirmed,"Hotel Saratoga, Havana",2022-05-06,0,0,0,0,0,,,,,3,0
+E059,S63,test,small_or_indoor,confirmed,"BBQ restaurant, Yinchuan",2023-06-21T12:40Z,0,0,0,0,0,,,,,0,0
+E099,S63,test,negative_control,control,"BBQ restaurant, Yinchuan",2022-06-21,0,0,0,0,0,,,,,0,0
+E060,S64,calibration,small_or_indoor,confirmed,"Accurate Energetic Systems, McEwen TN",2025-10-10T12:48Z,0,0,0,0,0,,,,,16,0
+E091,S64,calibration,negative_control,control,"Accurate Energetic Systems, McEwen TN",2024-10-10,0,0,0,0,0,,,,,16,0
+E061,S65,test,small_or_indoor,confirmed,"Sigachi Industries plant, Pashamylaram (Telangana)",2025-06-30T03:30Z,0,0,0,0,0,,,,,31,0
+E092,S65,test,negative_control,control,"Sigachi Industries plant, Pashamylaram (Telangana)",2024-06-30,0,0,0,0,0,,,,,31,0
+E062,S66,calibration,small_or_indoor,confirmed,"Plastmass plant, Kopeysk",2025-10-22T17:30Z,0,0,0,0,0,,,,,12,0
+E090,S66,calibration,negative_control,control,"Plastmass plant, Kopeysk",2024-10-22,0,0,0,0,0,,,,,12,0
+E066,S70,calibration,small_or_indoor,confirmed,"Apartment block, Tarwekamp, The Hague",2024-12-07T05:15Z,0,0,0,0,0,,,,,1,0
+E069,S73,calibration,small_or_indoor,confirmed,"Residential building, Dnipro (Naberezhna Peremohy)",2023-01-14T13:30Z,0,0,0,0,0,,,,,1,0
+E100,S73,calibration,negative_control,control,"Residential building, Dnipro (Naberezhna Peremohy)",2022-01-14,0,0,0,0,0,,,,,1,0
+E070,S74,calibration,small_or_indoor,confirmed,"Residential building, Uman",2023-04-28T01:00Z,0,0,0,0,0,,,,,0,0
+E073,S77,calibration,small_or_indoor,confirmed,"RIA Pizza restaurant, Kramatorsk",2023-06-27T16:30Z,0,0,0,0,0,,,,,1,0

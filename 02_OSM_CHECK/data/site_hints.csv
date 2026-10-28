@@ -1,0 +1,68 @@
+site_id,mode,name_regex,tags,street_regex,housenumber,radius_km,areas_only,allow_keys,note
+S01,feature,[Ss]upertanquero|CUPET,"[""man_made""=""storage_tank""]",,,10,n,,tank tag may return many tanks; pick the terminal
+S02,feature,[Нн]ефтеперераб|НПЗ|[Rr]efinery|Волгограднефтепереработка,"[""industrial""=""refinery""]",,,35,y,,
+S03,feature,[Нн]ефтеперераб|НПЗ|[Rr]efinery|Московский НПЗ,"[""industrial""=""refinery""]",,,20,y,,
+S04,feature,[Нн]ефтеперераб|НПЗ|[Rr]efinery|ЯНОС|Славнефть|Ярославнефтеоргсинтез,"[""industrial""=""refinery""]",,,20,y,,
+S05,feature,[Нн]ефтеперераб|НПЗ|[Rr]efinery|КИНЕФ|Киришинефтеоргсинтез,"[""industrial""=""refinery""]",,,15,y,,
+S06,feature,[Нн]ефтеперераб|НПЗ|[Rr]efinery|РНПК|Рязанская нефтеперераб,"[""industrial""=""refinery""]",,,15,y,,
+S07,feature,[Нн]ефтеперераб|НПЗ|[Rr]efinery|Туапсинский,"[""industrial""=""refinery""]",,,10,y,,
+S08,feature,[Нн]ефтеперераб|НПЗ|[Rr]efinery|Пермнефтеоргсинтез,"[""industrial""=""refinery""]",,,25,y,,
+S09,feature,[Нн]ефтеперераб|НПЗ|[Rr]efinery|Нижегороднефтеоргсинтез|НОРСИ,"[""industrial""=""refinery""]",,,15,y,,
+S10,feature,[Аа]рсенал|[Aa]rsenal|[Вв]оинская часть,"[""landuse""=""military""]",,,15,y,,military areas often unnamed; expect several
+S11,feature,[Нн]ефтебаза|[Нн]афтобаза|[Нн]ефтяной терминал|[Нн]ефтеналив,"[""industrial""~""oil|fuel|tank|depot""]",,,10,y,,
+S12,feature,[Кк]авказ|[Нн]ефтебаза,"[""industrial""~""oil|fuel|tank|depot""]",,,10,y,,
+S13,feature,Marathon|Garyville|[Rr]efinery,"[""industrial""=""refinery""]",,,10,y,,
+S14,feature,[Кк]ристалл|Росрезерв|[Нн]ефтебаза,"[""industrial""~""oil|fuel|tank|depot""]",,,15,y,,
+S15,feature,[Нн]ефтебаза|Белгороднефтепродукт|Роснефть,"[""industrial""~""oil|fuel|tank|depot""]",,,15,y,,
+S16,feature,[Аа]эродром|[Aa]ir ?[Bb]ase|Саки|Saky,"[""aeroway""=""aerodrome""]",,,15,y,,
+S20,feature,Marywilska,"[""shop""=""mall""]",,,15,y,,
+S21,feature,Bio-?Lab|KIK,,,,15,y,,
+S22,feature,Moss Landing|Vistra|Elkhorn,"[""power""=""plant""]",,,10,y,,
+S23,feature,BM Container|B\.? ?M\.? Container|Container Depot,,,,35,y,,
+S24,feature,ЗОМЗ|Загорский оптико|[Оо]птико-механ,,,,10,y,,
+S25,feature,My Way|Way Trading,,,,10,y,,small private site; may be unmapped
+S26,feature,[Ээ]ластик|Elastik,,,,40,y,,
+S27,feature,^МЕГА$|^MEGA$|МЕГА Химки|MEGA Khimki|^ОБИ$|^OBI$,"[""shop""=""mall""]",,,10,y,,
+S28,feature,[Аа]мстор|Amstor,,,,10,y,,
+S29,feature,Mradi,,,,20,n,place,neighbourhood-level only; blast point not mapped
+S30,feature,Walmart,"[""man_made""=""pipeline""]",,,10,n,,"PROXY: valve station next to a Walmart car park on Spencer Hwy; pick the Walmart on Spencer Hwy, not the feature itself"
+S31,feature,Deer Park Chemical|Deer Park Refin|^Shell,"[""industrial""=""refinery""]",,,10,y,,
+S32,feature,Diehl,,,,25,y,,
+S33,feature,[Кк]рокус|Crocus,,,,10,y,,
+S34,skip_no_feature,,,,,15,n,,derailment point on a rail line; no OSM feature to match
+S35,feature,[Ww]ildberries|[Вв]айлдберриз,,,,30,y,,areas_only to skip hundreds of pickup-point nodes
+S36,feature,Епіцентр|Эпицентр|Epicentr|Epicenter,,,,15,y,,
+S40,feature,Shahid Rajaee|Rajaee|رجایی,"[""landuse""=""port""]",,,30,y,,
+S41,skip_offshore,,,,,15,n,,
+S42,skip_offshore,,,,,15,n,,
+S43,skip_offshore,,,,,15,n,,
+S44,feature,[İIi]skenderun.*[Ll]iman|Limak|[Pp]ort,"[""landuse""=""port""]",,,10,y,,
+S45,skip_offshore,,,,,15,n,,
+S46,feature,[Нн]ОВАТЭК|Новатэк|NOVATEK|Novatek,,,,15,y,,
+S47,skip_offshore,,,,,15,n,,
+S48,skip_offshore,,,,,15,n,,
+S49,feature,[Нн]ефтеналив|Транснефть|[Тт]орговый порт|Приморск,"[""landuse""=""port""]",,,10,y,,Wikipedia gives a port-level point; vessel berth is what burned
+S50,feature,Шесхарис|Sheskharis,,,,10,y,,
+S51,skip_offshore,,,,,15,n,,
+S52,skip_offshore,,,,,15,n,,
+S53,skip_offshore,,,,,15,n,,
+S54,feature,Ізмаїльський.*порт|Измаильский.*порт|[Ii]zmail [Pp]ort|[Ii]zmail [Ss]ea [Pp]ort|[Ii]zmail [Cc]ommercial [Ss]ea [Pp]ort,"[""landuse""=""port""]",,,10,y,,
+S60,feature,Saratoga,,,,5,y,,
+S61,address,Paris American Academy,,[Rr]ue Saint-Jacques,277,5,n,,
+S62,feature,,"[""amenity""=""fuel""]",,,5,n,amenity,LPG station brand not in sources; several fuel stations likely - check against news imagery
+S63,feature,富洋|Fuyang,,,,15,n,,
+S64,feature,Accurate Energetic,,,,15,y,,
+S65,feature,Sigachi,,,,40,y,,
+S66,feature,[Пп]ластмасс|Plastmass,,,,10,y,,
+S67,feature,Алабуга Политех|Alabuga Polytech|[Оо]бщежити,,,,20,y,,SEZ is huge; target the dormitory blocks
+S68,skip_no_feature,,,,,15,n,,blast point on a rail line; no OSM feature to match
+S69,feature,IKEA,,,,15,y,,
+S70,address,,,Tarwekamp,,5,n,,
+S71,address,,,[Rr]ue de Tivoli,15,5,n,,
+S72,skip_no_feature,,,,,15,n,,shop name not in sources; GeoNames 'Sanhe' centroid is ~30 km from Yanjiao
+S73,address,,,Набережна Перемоги|Набережная Победы|Naberezhna Peremohy,,5,n,,street is km long; rank by distance to the Wikipedia point
+S74,skip_no_feature,,,,,15,n,,street address not in sources
+S75,feature,[Оо]хматдит|[Оо]хматдет|Okhmatdyt|НДСЛ,,,,10,y,,
+S76,skip_no_feature,,,,,15,n,,city-centre strike; no single feature
+S77,feature,^RIA|Ріа [Пп]іца|Риа [Пп]ицца|RIA [Pp]izza,,,,5,n,,
+S78,address,[Кк]ремний|Kremniy,,Красноармейская,103,15,n,,

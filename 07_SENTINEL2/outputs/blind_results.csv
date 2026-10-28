@@ -1,0 +1,66 @@
+blind_id,event_id,category,place_name,is_control,seen_before,label,confidence,visual_positive,s2_status,first_after_days,first_after_cloud,clear_after_days,dnbr_site_minus_ring,frac_site_dnbr_gt_0_27,area_site_dnbr_gt_0_27_m2,excess_frac_gt_0_27,firms_site_signal,firms_site_raw
+B049D7C,E093,negative_control,"Crocus City Hall, Krasnogorsk",True,False,nothing_visible,low,False,ok,0,1.0,10,,,,,0,0
+B068DE4,E069,small_or_indoor,"Residential building, Dnipro (Naberezhna Peremohy)",False,False,not_assessable,low,False,ok,0,1.0,12,0.044,0.0,0,0.0,0,0
+B0A48AE,E003,large_outdoor_fire,Volgograd refinery (Lukoil),False,False,nothing_visible,medium,False,ok,0,0.992,3,-0.001,0.005,31000,0.005,0,0
+B0AF531,E041,port_ship_fire,"Shahid Rajaee port, Bandar Abbas",False,False,active_fire,high,True,ok,1,1.0,6,-0.001,0.004,11700,0.004,64,64
+B0B9E53,E009,large_outdoor_fire,Ryazan refinery (Rosneft),False,False,nothing_visible,low,False,ok,1,0.681,16,-0.048,0.001,4900,-0.003,0,0
+B12BDD6,E002,large_outdoor_fire,Volgograd refinery (Lukoil),False,False,nothing_visible,low,False,ok,0,1.0,10,0.429,0.009,400,0.009,10,13
+B165DF3,E026,industrial_fire,Moss Landing battery storage facility (Vistra),False,False,active_fire,high,True,ok,2,0.0,2,0.011,0.014,26900,-0.023,8,8
+B1B076F,E092,negative_control,"Sigachi Industries plant, Pashamylaram (Telangana)",True,False,not_assessable,low,False,no_clear_after,1,1.0,,,,,,0,0
+B208E6B,E084,negative_control,Matanzas supertanker base (oil terminal),True,False,nothing_visible,medium,False,ok,3,0.54,8,-0.055,0.0,0,-0.002,0,0
+B20D460,E098,negative_control,Moss Landing battery storage facility (Vistra),True,False,nothing_visible,low,False,ok,3,1.0,13,-0.006,0.009,18200,-0.005,0,0
+B21A885,E059,small_or_indoor,"BBQ restaurant, Yinchuan",False,False,nothing_visible,low,False,ok,4,0.0,4,-0.001,0.0,0,0.0,0,0
+B23874A,E029,industrial_fire,"My Way Trading plastics storage site, Richmond IN",False,False,active_fire,high,True,ok,1,0.0,1,0.012,0.072,56500,0.072,24,24
+B2768BC,E097,negative_control,"Kombinat Kristall oil depot (Rosrezerv), Engels",True,False,nothing_visible,low,False,ok,1,1.0,4,,,,,0,0
+B27E9C7,E062,small_or_indoor,"Plastmass plant, Kopeysk",False,False,nothing_visible,low,False,ok,0,0.001,0,0.007,0.001,3000,-0.003,0,0
+B2BC4B4,E007,large_outdoor_fire,Kirishi refinery (KINEF),False,False,nothing_visible,low,False,no_clear_after,0,0.995,,,,,,0,0
+B2BDBE3,E015,large_outdoor_fire,Kstovo refinery (Lukoil-NORSI),False,False,not_assessable,low,False,no_clear_before,0,1.0,8,,,,,0,0
+B33665F,E042,port_ship_fire,"Stena Immaculate / Solong collision, North Sea off Spurn Head",False,False,nothing_visible,low,False,ok,1,0.0,1,,,,,2,2
+B356EF4,E006,large_outdoor_fire,Yaroslavl refinery (Slavneft-YANOS),False,True,nothing_visible,low,False,ok,1,0.0,1,-0.032,0.002,6000,-0.005,14,15
+B3C5653,E013,large_outdoor_fire,Tuapse refinery (Rosneft),False,False,nothing_visible,low,False,ok,2,0.0,2,0.314,0.0,0,0.0,0,0
+B3E4336,E050,port_ship_fire,Primorsk oil port (vessel at berth),False,False,nothing_visible,low,False,ok,0,1.0,13,0.01,0.0,3500,0.0,0,0
+B3FD6A6,E079,negative_control,Ryazan refinery (Rosneft),True,False,nothing_visible,medium,False,ok,0,1.0,12,0.148,0.0,100,0.0,0,5
+B429DAB,E081,negative_control,Perm refinery (Lukoil-Permnefteorgsintez),True,False,not_assessable,low,False,no_clear_scenes,0,1.0,,,,,,0,0
+B46ED28,E032,industrial_fire,"Amstor shopping mall, Kremenchuk",False,False,nothing_visible,medium,False,no_clear_before,1,0.0,1,,,,,0,0
+B4CA9AE,E023,large_outdoor_fire,"Saky air base, Novofedorivka (Crimea)",False,False,nothing_visible,low,False,ok,0,0.0,0,0.004,0.0,4500,-0.001,0,0
+B505B9B,E027,industrial_fire,"BM Container Depot, Sitakunda",False,False,active_fire,high,True,no_clear_before,1,0.0,1,,,,,19,19
+B50D120,E090,negative_control,"Plastmass plant, Kopeysk",True,False,not_assessable,low,False,no_clear_after,0,0.881,,,,,,0,0
+B5715AD,E091,negative_control,"Accurate Energetic Systems, McEwen TN",True,False,nothing_visible,low,False,ok,3,0.0,3,-0.004,0.0,0,0.0,0,0
+B5A273D,E045,port_ship_fire,Iskenderun port container yard,False,False,active_fire,high,True,ok,3,0.001,3,0.008,0.007,71700,0.006,18,18
+B5CA4CB,E021,large_outdoor_fire,"Kombinat Kristall oil depot (Rosrezerv), Engels",False,True,new_damage_or_scar,medium,True,no_clear_before,1,1.0,14,,,,,0,0
+B62EF52,E094,negative_control,"Marywilska 44 shopping centre, Warsaw",True,False,nothing_visible,low,False,ok,0,0.0,0,0.017,0.0,0,-0.002,0,0
+B6B2C98,E056,small_or_indoor,"Hotel Saratoga, Havana",False,False,nothing_visible,medium,False,ok,2,0.0,7,-0.013,0.0,0,-0.001,0,0
+B748D01,E028,industrial_fire,"Zagorsk Optical-Mechanical Plant (ZOMZ), Sergiyev Posad",False,False,nothing_visible,low,False,ok,0,1.0,8,-0.006,0.0,0,0.0,0,0
+B74E8BD,E016,large_outdoor_fire,Kstovo refinery (Lukoil-NORSI),False,False,nothing_visible,low,False,ok,2,1.0,14,0.081,0.0,0,0.0,0,3
+B773430,E011,large_outdoor_fire,Ryazan refinery (Rosneft),False,False,active_fire,high,True,ok,0,0.998,5,0.134,0.0,0,0.0,7,15
+B7E0457,E017,large_outdoor_fire,Toropets arsenal (GRAU 107th depot),False,True,active_fire,high,True,ok,1,0.0,1,0.098,0.2,1629600,0.2,564,564
+B8C043E,E100,negative_control,"Residential building, Dnipro (Naberezhna Peremohy)",True,False,not_assessable,low,False,no_clear_after,,,,,,,,0,0
+B8C9B98,E012,large_outdoor_fire,Tuapse refinery (Rosneft),False,False,not_assessable,medium,False,no_clear_before,0,1.0,5,,,,,0,0
+B8E4B7D,E001,large_outdoor_fire,Matanzas supertanker base (oil terminal),False,False,active_fire,high,True,ok,3,0.591,8,0.093,0.254,552200,0.244,25,25
+B96B16C,E061,small_or_indoor,"Sigachi Industries plant, Pashamylaram (Telangana)",False,False,not_assessable,low,False,no_clear_after,1,1.0,,,,,,0,0
+B98044B,E077,negative_control,Yaroslavl refinery (Slavneft-YANOS),True,False,nothing_visible,low,False,ok,0,1.0,1,0.013,0.0,0,0.0,0,28
+B996254,E037,industrial_fire,"Crocus City Hall, Krasnogorsk",False,False,nothing_visible,low,False,ok,2,1.0,9,-0.02,0.018,1600,-0.122,0,0
+B9A9B9C,E082,negative_control,Kstovo refinery (Lukoil-NORSI),True,False,not_assessable,low,False,no_clear_after,1,1.0,,,,,,0,0
+BA0002E,E083,negative_control,Garyville refinery (Marathon),True,False,active_fire,medium,True,no_clear_before,3,0.0,3,,,,,0,5
+BA0FBA3,E087,negative_control,"Stena Immaculate / Solong collision, North Sea off Spurn Head",True,False,nothing_visible,low,False,ok,1,1.0,6,,,,,0,0
+BA5CAF1,E073,small_or_indoor,"RIA Pizza restaurant, Kramatorsk",False,False,nothing_visible,low,False,ok,0,1.0,8,0.038,0.0,0,-0.001,0,0
+BA6C4EB,E080,negative_control,Tuapse refinery (Rosneft),True,False,nothing_visible,low,False,ok,3,1.0,23,0.004,0.0,0,0.0,0,0
+BA9006D,E014,large_outdoor_fire,Perm refinery (Lukoil-Permnefteorgsintez),False,False,nothing_visible,medium,False,ok,0,0.89,5,-0.173,0.149,738300,-0.404,0,0
+BAC7AE3,E075,negative_control,Volgograd refinery (Lukoil),True,False,nothing_visible,low,False,ok,1,1.0,8,-0.115,0.0,0,-0.001,0,0
+BB431AF,E070,small_or_indoor,"Residential building, Uman",False,False,not_assessable,low,False,no_clear_before,,,14,,,,,0,0
+BB5FA23,E038,industrial_fire,"Norfolk Southern derailment site, East Palestine OH",False,False,active_fire,medium,True,no_clear_after,1,0.995,,,,,,0,0
+BB90635,E024,industrial_fire,"Marywilska 44 shopping centre, Warsaw",False,False,nothing_visible,low,False,ok,1,0.0,1,0.074,0.0,0,0.0,2,2
+BBB2276,E076,negative_control,"Moscow refinery (Gazprom Neft, Kapotnya)",True,False,nothing_visible,low,False,ok,0,0.0,0,-0.016,0.009,27800,0.003,0,3
+BC4750A,E095,negative_control,"My Way Trading plastics storage site, Richmond IN",True,False,not_assessable,low,False,no_clear_after,,,,,,,,0,0
+BC5F080,E020,large_outdoor_fire,Garyville refinery (Marathon),False,False,active_fire,medium,True,ok,3,1.0,23,-0.014,0.001,5100,-0.008,0,12
+BC66C6F,E089,negative_control,Toropets arsenal (GRAU 107th depot),True,False,nothing_visible,low,False,ok,2,1.0,4,-0.011,0.0,200,0.0,0,0
+BCC920E,E004,large_outdoor_fire,"Moscow refinery (Gazprom Neft, Kapotnya)",False,False,nothing_visible,low,False,ok,1,0.0,1,-0.009,0.001,3200,0.0,0,0
+BCE3B3D,E078,negative_control,Kirishi refinery (KINEF),True,False,not_assessable,low,False,no_clear_after,1,1.0,,,,,,0,0
+BCF2E8F,E008,large_outdoor_fire,Kirishi refinery (KINEF),False,False,not_assessable,low,False,no_clear_after,0,1.0,,,,,,2,2
+BD245B2,E066,small_or_indoor,"Apartment block, Tarwekamp, The Hague",False,False,not_assessable,low,False,no_clear_after,3,1.0,,,,,,0,0
+BDCA106,E099,negative_control,"BBQ restaurant, Yinchuan",True,False,nothing_visible,low,False,ok,2,0.0,2,-0.03,0.001,200,0.0,0,0
+BDF85AD,E010,large_outdoor_fire,Ryazan refinery (Rosneft),False,False,nothing_visible,low,False,ok,2,0.942,6,0.012,0.001,6800,0.0,4,4
+BE79570,E085,negative_control,"Shahid Rajaee port, Bandar Abbas",True,False,nothing_visible,low,False,ok,1,1.0,16,-0.004,0.0,600,0.0,0,0
+BE92ED8,E060,small_or_indoor,"Accurate Energetic Systems, McEwen TN",False,False,nothing_visible,low,False,ok,3,0.0,3,-0.001,0.001,5200,0.001,0,0
+BEB2675,E088,negative_control,"BM Container Depot, Sitakunda",True,False,nothing_visible,low,False,ok,1,0.85,16,-0.073,0.0,0,-0.003,0,0
+BED5F74,E005,large_outdoor_fire,"Moscow refinery (Gazprom Neft, Kapotnya)",False,False,nothing_visible,low,False,no_clear_before,1,1.0,3,,,,,0,1

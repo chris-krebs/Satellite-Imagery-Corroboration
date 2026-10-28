@@ -1,0 +1,19 @@
+site_id,date,source,note
+S02,2024-02,https://en.wikipedia.org/wiki/Volgograd_refinery,drone hit February 2024; day not given - whole month excluded
+S02,2025-08-14,https://en.wikipedia.org/wiki/Volgograd_refinery,fire after drone attack (left out of the event set because its confirmation used FIRMS)
+S03,2026-06-16,https://en.wikipedia.org/wiki/Moscow_Refinery,drone strike fire
+S03,2026-09-20,https://en.wikipedia.org/wiki/Moscow_Refinery,strike during large Moscow raid
+S04,2025-10-01,https://en.wikipedia.org/wiki/Yaroslavl_refinery,fire; cause not stated
+S06,2024-03,https://en.wikipedia.org/wiki/Ryazan_refinery,drone hit March 2024; day not given - whole month excluded
+S06,2025-01-24,https://en.wikipedia.org/wiki/Ryazan_refinery,drone strike
+S06,2025-02,https://en.wikipedia.org/wiki/Ryazan_refinery,late-February 2025 strike; day not given - whole month excluded
+S06,2025-12-06,https://en.wikipedia.org/wiki/Ryazan_refinery,9th strike of 2025
+S07,2025-03-14,https://en.wikipedia.org/wiki/Tuapse_Refinery,drone strike (left out of the event set because its fire size came from FIRMS)
+S07,2025-11-02,https://en.wikipedia.org/wiki/Tuapse_Refinery,oil terminal hit
+S07,2026-04-16,https://en.wikipedia.org/wiki/Tuapse_Refinery,port hit
+S09,2025-10-05,https://en.wikipedia.org/wiki/Kstovo_refinery,drone attack
+S09,2025-10-16,https://en.wikipedia.org/wiki/Kstovo_refinery,drone attack
+S14,2025-01-14,https://ukrinform.net/rubric-ato/3954127-uk-intelligence-reveals-aftermath-of-drone-strikes-on-russian-oil-depot-near-engels-airbase.html,second strike reignited the fire
+S14,2025-06-06,https://militarnyi.com/en/news/satellite-confirms-damage-to-strategic-aviation-fuel-storage-facility-in-engels/,strike and fire
+S09,2024-03-12,https://euromaidanpress.com/?p=261957,drone strike on Nizhny Novgorod oblast refinery (Kstovo) - SBU campaign March 2024
+S02,2025-02-03,https://english.nv.ua/nation/air-defenses-engage-as-drones-target-refinery-in-volgograd-50486684.html,"drone attack on the refinery, explosions reported (fire not confirmed); inside E002 event window"

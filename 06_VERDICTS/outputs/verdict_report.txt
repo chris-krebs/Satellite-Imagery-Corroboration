@@ -1,0 +1,137 @@
+VERDICTS  (rules: data/verdict_rules.json)
+Written after stages 04-07 had been run and partly inspected, including test-half sites: the attribution rule was motivated by Volgograd E002 (test half) and the flare caveat for visual labels by the Garyville control E083 (calibration). Treat test-half verdicts as semi-blind. One change after the first run (28 Oct 2026): the attribution check now also applies to signals after the timing window, because E002 had come out 'weak' on the other attack's fire, the case the rule was written for. Do not change these rules after reading verdict_report.txt; if you must, say so in the results.
+
+== SITE LEVEL, test ==
+                              corroborated  ambiguous_attr            weak  not_observable  not_corroborat  not_assessable
+  events                                 8               0               1               2               7              13
+  controls                               0               0               0               6               4               0
+  events corroborated (where observable): 8/16 = 50%  (95% CI 28%-72%)
+  controls 'corroborated' (false alarms):  0/10 = 0%  (95% CI 0%-28%)
+
+== SITE LEVEL, calibration ==
+                              corroborated  ambiguous_attr            weak  not_observable  not_corroborat  not_assessable
+  events                                 9               0               1               9              11              13
+  controls                               0               0               1               5              10               0
+  events corroborated (where observable): 9/21 = 43%  (95% CI 24%-63%)
+  controls 'corroborated' (false alarms):  0/16 = 0%  (95% CI 0%-19%)
+
+== SITE LEVEL, all ==
+                              corroborated  ambiguous_attr            weak  not_observable  not_corroborat  not_assessable
+  events                                17               0               2              11              18              26
+  controls                               0               0               1              11              14               0
+  events corroborated (where observable): 17/37 = 46%  (95% CI 31%-62%)
+  controls 'corroborated' (false alarms):  0/26 = 0%  (95% CI 0%-13%)
+
+== SITE LEVEL by category (all splits; observable events) ==
+  industrial_fire             5/6 = 83%   (+2 not observable)
+  large_outdoor_fire         7/16 = 44%   (+4 not observable)
+  port_ship_fire             5/10 = 50%   (+1 not observable)
+  small_or_indoor              0/5 = 0%   (+4 not observable)
+
+== CITY LEVEL vs SITE LEVEL (what a city-point pipeline would say) ==
+  events    city-level corroborated: 13/74 = 18%  (95% CI 11%-28%)
+  controls  city-level corroborated: 0/26 = 0%  (95% CI 0%-13%)
+  events with a site point: site yes & city yes 7, site yes & city no 10, site no & city yes 1, both no 30
+  events WITHOUT a site point: city-level corroborated 5/26 = 19% - the only verdict available for them
+
+== Every event ==
+  E024  calib industrial_fir Marywilska 44 shopping centre, site: corroborated           city: not_corroborated FIRMS signal from +0.1 h (2 detections in window)
+  E025  test  industrial_fir BioLab plant, Conyers GA       site: not_assessable_no_site city: corroborated     no site point (kept blank on purpose)
+  E026  test  industrial_fir Moss Landing battery storage f site: corroborated           city: corroborated     FIRMS signal from +33.5 h (8 detections in window); image labelled active_fire
+  E027  calib industrial_fir BM Container Depot, Sitakunda  site: corroborated           city: not_corroborated FIRMS signal from +3.7 h (19 detections in window); image labelled active_fire
+  E028  calib industrial_fir Zagorsk Optical-Mechanical Pla site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +8 d
+  E029  test  industrial_fir My Way Trading plastics storag site: corroborated           city: corroborated     FIRMS signal from +0.3 h (21 detections in window); image labelled active_fire
+  E030  calib industrial_fir Elastik plant, Lesnoy (Shilovs site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E031  calib industrial_fir Mega Khimki shopping centre (O site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E032  calib industrial_fir Amstor shopping mall, Kremench site: not_corroborated       city: not_corroborated no signal although data were available
+  E033  calib industrial_fir Mradi area gas depot, Embakasi site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E034  calib industrial_fir Energy Transfer pipeline valve site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E035  calib industrial_fir Shell Deer Park Chemicals (ole site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E036  calib industrial_fir Diehl Metal Applications plant site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E037  calib industrial_fir Crocus City Hall, Krasnogorsk  site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +9 d
+  E038  calib industrial_fir Norfolk Southern derailment si site: corroborated           city: not_corroborated image labelled active_fire
+  E039  calib industrial_fir Wildberries warehouse, Shushar site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E040  calib industrial_fir Epicentr hypermarket, Kyivskyi site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E001  test  large_outdoor_ Matanzas supertanker base (oil site: corroborated           city: corroborated     FIRMS signal from +30.9 h (6 detections in window); image labelled active_fire
+  E002  test  large_outdoor_ Volgograd refinery (Lukoil)    site: not_observable         city: not_corroborated FIRMS signal only from +71 h, after another incident at the site (incident 2025-02-03); no
+  E003  test  large_outdoor_ Volgograd refinery (Lukoil)    site: not_corroborated       city: not_corroborated no signal although data were available
+  E004  calib large_outdoor_ Moscow refinery (Gazprom Neft, site: not_corroborated       city: not_corroborated no signal although data were available
+  E005  calib large_outdoor_ Moscow refinery (Gazprom Neft, site: not_corroborated       city: not_corroborated no signal although data were available
+  E006  test  large_outdoor_ Yaroslavl refinery (Slavneft-Y site: corroborated           city: corroborated     FIRMS signal from +0.0 h (13 detections in window)
+  E007  calib large_outdoor_ Kirishi refinery (KINEF)       site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image never
+  E008  calib large_outdoor_ Kirishi refinery (KINEF)       site: corroborated           city: not_corroborated FIRMS signal from +0.1 h (2 detections in window)
+  E009  test  large_outdoor_ Ryazan refinery (Rosneft)      site: not_corroborated       city: not_corroborated no signal although data were available
+  E010  test  large_outdoor_ Ryazan refinery (Rosneft)      site: corroborated           city: not_corroborated FIRMS signal from +1.2 h (4 detections in window)
+  E011  test  large_outdoor_ Ryazan refinery (Rosneft)      site: corroborated           city: corroborated     FIRMS signal from +9.1 h (4 detections in window); image labelled active_fire at a site wi
+  E012  test  large_outdoor_ Tuapse refinery (Rosneft)      site: not_corroborated       city: not_corroborated no signal although data were available
+  E013  test  large_outdoor_ Tuapse refinery (Rosneft)      site: not_corroborated       city: not_corroborated no signal although data were available
+  E014  calib large_outdoor_ Perm refinery (Lukoil-Permneft site: not_corroborated       city: not_corroborated no signal although data were available
+  E015  calib large_outdoor_ Kstovo refinery (Lukoil-NORSI) site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +8 d
+  E016  calib large_outdoor_ Kstovo refinery (Lukoil-NORSI) site: not_observable         city: corroborated     site 100% cloud in the first Sentinel-2 image after; first clear image +14 d
+  E017  calib large_outdoor_ Toropets arsenal (GRAU 107th d site: corroborated           city: corroborated     FIRMS signal from -0.9 h (512 detections in window); image labelled active_fire (image see
+  E018  calib large_outdoor_ Feodosia marine oil terminal   site: not_assessable_no_site city: corroborated     no site point (kept blank on purpose)
+  E019  test  large_outdoor_ Kavkaz oil depot, Proletarsk   site: not_assessable_no_site city: corroborated     no site point (kept blank on purpose)
+  E020  calib large_outdoor_ Garyville refinery (Marathon)  site: weak                   city: not_corroborated image labelled active_fire at a site with flares (weak)
+  E021  calib large_outdoor_ Kombinat Kristall oil depot (R site: corroborated           city: not_corroborated image labelled new_damage_or_scar (image seen before labelling)
+  E022  calib large_outdoor_ Rosneft fuel depot, Belgorod   site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E023  calib large_outdoor_ Saky air base, Novofedorivka ( site: not_corroborated       city: not_corroborated no signal although data were available
+  E041  test  port_ship_fire Shahid Rajaee port, Bandar Abb site: corroborated           city: not_corroborated FIRMS signal from +0.9 h (30 detections in window); image labelled active_fire
+  E042  calib port_ship_fire Stena Immaculate / Solong coll site: corroborated           city: not_corroborated FIRMS signal from +2.2 h (2 detections in window)
+  E043  test  port_ship_fire Tanker Sounion, Red Sea (drift site: weak                   city: not_corroborated FIRMS signal only from +58 h, after the timing window
+  E044  calib port_ship_fire Cruiser Moskva, NW Black Sea   site: not_corroborated       city: not_corroborated no signal although data were available
+  E045  calib port_ship_fire Iskenderun port container yard site: corroborated           city: corroborated     FIRMS signal from +35.4 h (7 detections in window); image labelled active_fire
+  E046  calib port_ship_fire Container ship Wan Hai 503, of site: not_corroborated       city: not_corroborated no signal although data were available (no Sentinel-2 cloud information)
+  E047  test  port_ship_fire Novatek Ust-Luga fuel export t site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E048  test  port_ship_fire Tanker Marlin Luanda, Gulf of  site: corroborated           city: not_corroborated FIRMS signal from +21.8 h (2 detections in window)
+  E049  calib port_ship_fire Car carrier Fremantle Highway, site: not_corroborated       city: not_corroborated no signal although data were available (no Sentinel-2 cloud information)
+  E050  calib port_ship_fire Primorsk oil port (vessel at b site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +13 d
+  E051  calib port_ship_fire Sheskharis oil terminal (Trans site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E052  test  port_ship_fire Car carrier Felicity Ace, off  site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E053  calib port_ship_fire Car carrier Morning Midas, N P site: corroborated           city: not_corroborated FIRMS signal from +37.5 h (3 detections in window)
+  E054  test  port_ship_fire Container ship Maersk Frankfur site: not_corroborated       city: not_corroborated no signal although data were available (no Sentinel-2 cloud information)
+  E055  test  port_ship_fire Izmail port (Danube)           site: not_assessable_no_site city: corroborated     no site point (kept blank on purpose)
+  E056  test  small_or_indoo Hotel Saratoga, Havana         site: not_corroborated       city: not_corroborated no signal although data were available
+  E057  test  small_or_indoo Paris American Academy, 277 ru site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E058  calib small_or_indoo LPG station, Crevedia          site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E059  test  small_or_indoo BBQ restaurant, Yinchuan       site: not_corroborated       city: not_corroborated no signal although data were available
+  E060  calib small_or_indoo Accurate Energetic Systems, Mc site: not_corroborated       city: not_corroborated no signal although data were available
+  E061  test  small_or_indoo Sigachi Industries plant, Pash site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image never
+  E062  calib small_or_indoo Plastmass plant, Kopeysk       site: not_corroborated       city: not_corroborated no signal although data were available
+  E063  calib small_or_indoo Alabuga SEZ dormitories, Yelab site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E064  test  small_or_indoo Warsaw-Lublin rail line near M site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E065  test  small_or_indoo IKEA store warehouse, Vilnius  site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E066  calib small_or_indoo Apartment block, Tarwekamp, Th site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image never
+  E067  test  small_or_indoo Apartment building, 15 rue de  site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E068  test  small_or_indoo Fried-chicken shop, Yanjiao (S site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E069  calib small_or_indoo Residential building, Dnipro ( site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +12 d
+  E070  calib small_or_indoo Residential building, Uman     site: not_corroborated       city: not_corroborated no signal although data were available
+  E071  test  small_or_indoo Okhmatdyt children's hospital, site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E072  test  small_or_indoo Sumy city centre               site: not_assessable_no_site city: not_corroborated no site point (kept blank on purpose)
+  E073  calib small_or_indoo RIA Pizza restaurant, Kramator site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +8 d
+  E074  test  small_or_indoo Kremniy El plant, 103 Krasnoar site: not_assessable_no_site city: corroborated     no site point (kept blank on purpose)
+  E075  test  negative_contr Volgograd refinery (Lukoil)    site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +8 d
+  E076  calib negative_contr Moscow refinery (Gazprom Neft, site: not_corroborated       city: not_corroborated no signal although data were available
+  E077  test  negative_contr Yaroslavl refinery (Slavneft-Y site: not_corroborated       city: not_corroborated no signal although data were available
+  E078  calib negative_contr Kirishi refinery (KINEF)       site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image never
+  E079  test  negative_contr Ryazan refinery (Rosneft)      site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +12 d
+  E080  test  negative_contr Tuapse refinery (Rosneft)      site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +23 d
+  E081  calib negative_contr Perm refinery (Lukoil-Permneft site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image never
+  E082  calib negative_contr Kstovo refinery (Lukoil-NORSI) site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image never
+  E083  calib negative_contr Garyville refinery (Marathon)  site: weak                   city: not_corroborated image labelled active_fire at a site with flares (weak)
+  E084  test  negative_contr Matanzas supertanker base (oil site: not_corroborated       city: not_corroborated no signal although data were available
+  E085  test  negative_contr Shahid Rajaee port, Bandar Abb site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +16 d
+  E086  calib negative_contr Iskenderun port container yard site: not_corroborated       city: not_corroborated no signal although data were available
+  E087  calib negative_contr Stena Immaculate / Solong coll site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +6 d
+  E088  calib negative_contr BM Container Depot, Sitakunda  site: not_corroborated       city: not_corroborated no signal although data were available
+  E089  calib negative_contr Toropets arsenal (GRAU 107th d site: not_corroborated       city: not_corroborated no signal although data were available
+  E090  calib negative_contr Plastmass plant, Kopeysk       site: not_corroborated       city: not_corroborated no signal although data were available
+  E091  calib negative_contr Accurate Energetic Systems, Mc site: not_corroborated       city: not_corroborated no signal although data were available
+  E092  test  negative_contr Sigachi Industries plant, Pash site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image never
+  E093  calib negative_contr Crocus City Hall, Krasnogorsk  site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +10 d
+  E094  calib negative_contr Marywilska 44 shopping centre, site: not_corroborated       city: not_corroborated no signal although data were available
+  E095  test  negative_contr My Way Trading plastics storag site: not_corroborated       city: not_corroborated no signal although data were available
+  E096  calib negative_contr Norfolk Southern derailment si site: not_corroborated       city: not_corroborated no signal although data were available
+  E097  calib negative_contr Kombinat Kristall oil depot (R site: not_corroborated       city: not_corroborated no signal although data were available
+  E098  test  negative_contr Moss Landing battery storage f site: not_observable         city: not_corroborated site 100% cloud in the first Sentinel-2 image after; first clear image +13 d
+  E099  test  negative_contr BBQ restaurant, Yinchuan       site: not_corroborated       city: not_corroborated no signal although data were available
+  E100  calib negative_contr Residential building, Dnipro ( site: not_corroborated       city: not_corroborated no signal although data were available

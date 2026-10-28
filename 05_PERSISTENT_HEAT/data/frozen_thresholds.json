@@ -1,0 +1,24 @@
+{
+  "frozen_on": "2026-10-27",
+  "rule": "Fixed before the first look at test-half sites. Do not change these after seeing test results; if they must change, say so in the results and re-tune on calibration sites only.",
+  "values": {
+    "CELL_M": 400,
+    "neighbourhood_radius_m": "max(600, pixel half-size)",
+    "FRP_FACTOR": 2.0,
+    "CLUSTER_MIN": 3,
+    "CLUSTER_FACTOR": 2.0,
+    "LABEL_RADIUS_KM": 5.0,
+    "HISTORY_DAYS": 365,
+    "HISTORY_GAP_DAYS": 60,
+    "EVAL_EXCLUDE_DAYS": [-8, 10],
+    "INCIDENT_EXCLUDE_DAYS": 30
+  },
+  "evidence": {
+    "calibration_sites": ["S03", "S05", "S09", "S10", "S13", "S14"],
+    "calibration_result": "controls with a site hit 2/6 -> 0/6; confirmed events 5/9 -> 2/9",
+    "sanity_cases": {
+      "SAN1 Volgograd 2025-08-14": "53 raw -> 36 signal; strike-night overpass (16 cells, up to 44 MW) kept, flare passes before and after labelled background",
+      "SAN2 Tuapse 2025-03-14": "49 raw -> 49 signal; all 'new' (no heat history at all), so it tests only the 'new' path"
+    }
+  }
+}
